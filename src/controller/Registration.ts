@@ -14,7 +14,7 @@ if (form?.children.length) {
     const passwordVal: string | null = password ? password.value : "";
     if (usernameVal && emailVal && passwordVal) {
       register.addUser(usernameVal, emailVal, passwordVal);
-      window.location.href = 'http://127.0.0.1:5500/src/views/userdetails.html'
+      window.location.href = 'http://127.0.0.1:5500/src/views/login.html'
     }
   });
 }
